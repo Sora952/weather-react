@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "636787aef75132bcb4f92dbdf03c5dab",
+    "revision": "e0a1d6fc5daab7663257e3a010723f17",
     "url": "/weather-react/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/weather-react/static/css/7.c05aca9f.chunk.css"
   },
   {
-    "revision": "d0e9ac1cea1ad81a3047",
-    "url": "/weather-react/static/css/main.1fa7e192.chunk.css"
+    "revision": "13971f850781ad35abed",
+    "url": "/weather-react/static/css/main.c7652c4b.chunk.css"
   },
   {
     "revision": "ed4af248a44d2df506a0",
@@ -32,12 +32,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/weather-react/static/js/4.71fbd1c9.chunk.js"
   },
   {
-    "revision": "2b1af2612b97ee703df1",
-    "url": "/weather-react/static/js/5.75f54b86.chunk.js"
+    "revision": "dec8451076a10cd82ae9",
+    "url": "/weather-react/static/js/5.dd813623.chunk.js"
   },
   {
-    "revision": "0d638e924f132486ff12",
-    "url": "/weather-react/static/js/6.fa36b2eb.chunk.js"
+    "revision": "be2943024abc7d7e36d5",
+    "url": "/weather-react/static/js/6.4f68ea64.chunk.js"
   },
   {
     "revision": "0f2040df77a202828ceb",
@@ -48,12 +48,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/weather-react/static/js/8.99fdf416.chunk.js"
   },
   {
-    "revision": "d0e9ac1cea1ad81a3047",
-    "url": "/weather-react/static/js/main.2cda5c92.chunk.js"
+    "revision": "13971f850781ad35abed",
+    "url": "/weather-react/static/js/main.33dcb410.chunk.js"
   },
   {
-    "revision": "e5dda3a5f6a42fd7495b",
-    "url": "/weather-react/static/js/runtime-main.592ef9de.js"
+    "revision": "e4d382f97bf4e187d2b7",
+    "url": "/weather-react/static/js/runtime-main.9ac645f9.js"
   },
   {
     "revision": "788e7c705c377d9e08875341f0e860cb",
@@ -128,8 +128,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/weather-react/static/media/fontello.4fe9386e.woff"
   },
   {
-    "revision": "927c547e01a9bc0543c7902d8536bca8",
-    "url": "/weather-react/static/media/fontello.927c547e.svg"
+    "revision": "9d72fc1519c7b741e64bdb1cfd26033e",
+    "url": "/weather-react/static/media/fontello.9d72fc15.svg"
   },
   {
     "revision": "1cd48d78f06d33973d9d761d426e69bf",
