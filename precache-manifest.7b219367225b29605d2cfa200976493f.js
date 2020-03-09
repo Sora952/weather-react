@@ -1,59 +1,63 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e0a1d6fc5daab7663257e3a010723f17",
+    "revision": "c25c10e592cdad6ba343a7da01dee70d",
     "url": "/weather-react/index.html"
   },
   {
-    "revision": "0f2040df77a202828ceb",
+    "revision": "d873c62d4f9a0a72ea8f",
     "url": "/weather-react/static/css/7.c05aca9f.chunk.css"
   },
   {
-    "revision": "13971f850781ad35abed",
-    "url": "/weather-react/static/css/main.c7652c4b.chunk.css"
+    "revision": "afb9bd44d6540a4e43ce",
+    "url": "/weather-react/static/css/main.6ef01396.chunk.css"
   },
   {
-    "revision": "ed4af248a44d2df506a0",
-    "url": "/weather-react/static/js/0.98efd9fd.chunk.js"
+    "revision": "ed20a4e6677cf7c9c2f0",
+    "url": "/weather-react/static/js/0.5f5c11e9.chunk.js"
   },
   {
     "revision": "97636669c8193ace9a3b4f1548fc4d0b",
-    "url": "/weather-react/static/js/0.98efd9fd.chunk.js.LICENSE"
+    "url": "/weather-react/static/js/0.5f5c11e9.chunk.js.LICENSE"
   },
   {
-    "revision": "86dc9dfcc04fca68c719",
-    "url": "/weather-react/static/js/3.0c467353.chunk.js"
+    "revision": "b59b8f574552d23d412d",
+    "url": "/weather-react/static/js/3.e4b6447e.chunk.js"
   },
   {
     "revision": "fc71f6ee5ed35eb684421ddbb521e4bc",
-    "url": "/weather-react/static/js/3.0c467353.chunk.js.LICENSE"
+    "url": "/weather-react/static/js/3.e4b6447e.chunk.js.LICENSE"
   },
   {
-    "revision": "a51382bea60348c96026",
-    "url": "/weather-react/static/js/4.71fbd1c9.chunk.js"
+    "revision": "068ccddd87803ca02b60",
+    "url": "/weather-react/static/js/4.cf0caa61.chunk.js"
   },
   {
-    "revision": "dec8451076a10cd82ae9",
-    "url": "/weather-react/static/js/5.dd813623.chunk.js"
+    "revision": "3dda7742c82ea00b347e",
+    "url": "/weather-react/static/js/5.58298593.chunk.js"
   },
   {
-    "revision": "be2943024abc7d7e36d5",
-    "url": "/weather-react/static/js/6.4f68ea64.chunk.js"
+    "revision": "bb88184f23b661e99565",
+    "url": "/weather-react/static/js/6.010bbf71.chunk.js"
   },
   {
-    "revision": "0f2040df77a202828ceb",
-    "url": "/weather-react/static/js/7.8025790c.chunk.js"
+    "revision": "d873c62d4f9a0a72ea8f",
+    "url": "/weather-react/static/js/7.fd97c618.chunk.js"
   },
   {
-    "revision": "7914103fe0efbff771cf",
-    "url": "/weather-react/static/js/8.99fdf416.chunk.js"
+    "revision": "49c7182acf129893a59d",
+    "url": "/weather-react/static/js/8.84bf9b89.chunk.js"
   },
   {
-    "revision": "13971f850781ad35abed",
-    "url": "/weather-react/static/js/main.33dcb410.chunk.js"
+    "revision": "30ebbe11833f0ebf2d97",
+    "url": "/weather-react/static/js/9.5e674ce8.chunk.js"
   },
   {
-    "revision": "e4d382f97bf4e187d2b7",
-    "url": "/weather-react/static/js/runtime-main.9ac645f9.js"
+    "revision": "afb9bd44d6540a4e43ce",
+    "url": "/weather-react/static/js/main.a9b2aad5.chunk.js"
+  },
+  {
+    "revision": "04bf54aacf2515f377c7",
+    "url": "/weather-react/static/js/runtime-main.68cc4900.js"
   },
   {
     "revision": "788e7c705c377d9e08875341f0e860cb",
@@ -114,33 +118,5 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "7b228459800eddb3e86861952daa4528",
     "url": "/weather-react/static/media/SpaceGrotesk-SemiBold.7b228459.woff"
-  },
-  {
-    "revision": "15c1068926ee3520ec3c9fd663886afe",
-    "url": "/weather-react/static/media/fontello.15c10689.ttf"
-  },
-  {
-    "revision": "43d24674891233c2a55737dfca6865df",
-    "url": "/weather-react/static/media/fontello.43d24674.woff2"
-  },
-  {
-    "revision": "4fe9386eff14025295f0b17b77c071ba",
-    "url": "/weather-react/static/media/fontello.4fe9386e.woff"
-  },
-  {
-    "revision": "9d72fc1519c7b741e64bdb1cfd26033e",
-    "url": "/weather-react/static/media/fontello.9d72fc15.svg"
-  },
-  {
-    "revision": "1cd48d78f06d33973d9d761d426e69bf",
-    "url": "/weather-react/static/media/weathericons-regular-webfont.1cd48d78.woff2"
-  },
-  {
-    "revision": "4618f0de2a818e7ad3fe880e0b74d04a",
-    "url": "/weather-react/static/media/weathericons-regular-webfont.4618f0de.ttf"
-  },
-  {
-    "revision": "8cac70ebda3f23ce472110d9f21e8593",
-    "url": "/weather-react/static/media/weathericons-regular-webfont.8cac70eb.woff"
   }
 ]);
