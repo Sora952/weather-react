@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f190c225ddcce27834e56a8498848312",
+    "revision": "869383217e13fc2691f9496d67061329",
     "url": "/weather-react/index.html"
   },
   {
-    "revision": "43eac4cfec80be1986aa",
+    "revision": "596b1fdd877039a74e35",
     "url": "/weather-react/static/css/5.d39fb450.chunk.css"
   },
   {
@@ -24,20 +24,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/weather-react/static/js/0.5b4fb970.chunk.js.LICENSE"
   },
   {
-    "revision": "b59b8f574552d23d412d",
-    "url": "/weather-react/static/js/3.e4b6447e.chunk.js"
+    "revision": "f0140431e5ec87c30077",
+    "url": "/weather-react/static/js/3.6dbb14a8.chunk.js"
   },
   {
     "revision": "fc71f6ee5ed35eb684421ddbb521e4bc",
-    "url": "/weather-react/static/js/3.e4b6447e.chunk.js.LICENSE"
+    "url": "/weather-react/static/js/3.6dbb14a8.chunk.js.LICENSE"
   },
   {
     "revision": "0eca675ff9a8896722af",
     "url": "/weather-react/static/js/4.dfc8a8f6.chunk.js"
   },
   {
-    "revision": "43eac4cfec80be1986aa",
-    "url": "/weather-react/static/js/5.5ab64cab.chunk.js"
+    "revision": "596b1fdd877039a74e35",
+    "url": "/weather-react/static/js/5.7e4e5bbe.chunk.js"
   },
   {
     "revision": "7b50065acafd5ce03c13",
@@ -52,16 +52,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/weather-react/static/js/8.84bf9b89.chunk.js"
   },
   {
-    "revision": "914e5b43c8f7cad95602",
-    "url": "/weather-react/static/js/9.6b33a4a5.chunk.js"
+    "revision": "8c983f70725dae60f603",
+    "url": "/weather-react/static/js/9.2192a021.chunk.js"
   },
   {
     "revision": "afb7333cdd305b78c98a",
     "url": "/weather-react/static/js/main.5a0bbc83.chunk.js"
   },
   {
-    "revision": "601873c5a3b4e0eeeacb",
-    "url": "/weather-react/static/js/runtime-main.423e2a16.js"
+    "revision": "2e5856c722e4e0d65f47",
+    "url": "/weather-react/static/js/runtime-main.4e28c4b1.js"
   },
   {
     "revision": "788e7c705c377d9e08875341f0e860cb",
