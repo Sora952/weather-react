@@ -1,18 +1,18 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "de1643639f778f4b44d5e76286e99441",
+    "revision": "68589675a4f662a1842e070261fe4f16",
     "url": "/weather-react/index.html"
   },
   {
-    "revision": "d013330acec6b0a53c15",
+    "revision": "d1c183bb6340d66f668e",
     "url": "/weather-react/static/css/1.8e7980c0.chunk.css"
   },
   {
-    "revision": "6b55c938ecd58f3aa309",
+    "revision": "f7180ce456a23b87a42b",
     "url": "/weather-react/static/css/6.c05aca9f.chunk.css"
   },
   {
-    "revision": "be5555701077122ad798",
+    "revision": "5292bb17cb6fd16a6fcb",
     "url": "/weather-react/static/css/main.9526da4e.chunk.css"
   },
   {
@@ -24,8 +24,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/weather-react/static/js/0.b548a342.chunk.js.LICENSE"
   },
   {
-    "revision": "d013330acec6b0a53c15",
-    "url": "/weather-react/static/js/1.0622a90c.chunk.js"
+    "revision": "d1c183bb6340d66f668e",
+    "url": "/weather-react/static/js/1.0fcec936.chunk.js"
   },
   {
     "revision": "879314cd4539fac6da06",
@@ -44,8 +44,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/weather-react/static/js/5.62900c16.chunk.js"
   },
   {
-    "revision": "6b55c938ecd58f3aa309",
-    "url": "/weather-react/static/js/6.36c4fa18.chunk.js"
+    "revision": "f7180ce456a23b87a42b",
+    "url": "/weather-react/static/js/6.6771005b.chunk.js"
   },
   {
     "revision": "0f0537e884b958a650ec",
@@ -60,12 +60,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/weather-react/static/js/9.ccbac2a1.chunk.js"
   },
   {
-    "revision": "be5555701077122ad798",
-    "url": "/weather-react/static/js/main.92f7f881.chunk.js"
+    "revision": "5292bb17cb6fd16a6fcb",
+    "url": "/weather-react/static/js/main.adf931e0.chunk.js"
   },
   {
-    "revision": "f11d07e475c93100e74b",
-    "url": "/weather-react/static/js/runtime-main.6fb7230f.js"
+    "revision": "76d35b6bc01d71baa4a2",
+    "url": "/weather-react/static/js/runtime-main.dec97280.js"
   },
   {
     "revision": "788e7c705c377d9e08875341f0e860cb",
