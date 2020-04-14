@@ -3,9 +3,7 @@ import {PropTypes} from 'prop-types'
 import axios from 'axios'
 import * as Sentry from '@sentry/browser'
 import {isEmpty, isUndefined} from 'lodash-es'
-import HEADERS from '../utils/AlgoliaHeaders'
 
-// const token = process.env.REACT_APP_IPINFO_TOKEN
 const AddressContext = React.createContext(null)
 
 class AddressContextProvider extends Component {
@@ -34,15 +32,8 @@ class AddressContextProvider extends Component {
   updateAddress = async (latlong) => {
     let hit = {}
     try {
-      const {hits} = (
-        await axios.get(
-          `https://places-dsn.algolia.net/1/places/reverse?aroundLatLng=${latlong},&hitsPerPage=1&language=en`,
-          {
-            headers: HEADERS,
-          }
-        )
-      ).data
-      hit = hits[0]
+      const {data} = (await axios.get(`/address/coords/${latlong}`)).data
+      hit = data.hits[0]
 
       if (!isEmpty(hit) && !isUndefined(hit)) {
         const cityName = `${hit.city ? hit.city[0] : ''}, ${

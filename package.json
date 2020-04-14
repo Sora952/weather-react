@@ -35,7 +35,9 @@
     "watch-css": "npm-run-all -p watch-scss watch:style",
     "build-css": "npm-run-all -s build-scss build:style",
     "start-react": "react-scripts start",
-    "start": "npm-run-all -p watch-css start-react",
+    "start-server": "node server/index.js",
+    "start-dev": "npm-run-all -p watch-css start-react",
+    "start": "npm-run-all -p start-server start-dev",
     "build-react": "react-scripts build",
     "build": "npm-run-all -s build-css build-react",
     "predeploy": "npm run build",
@@ -43,6 +45,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "proxy": "http://localhost:3001",
   "eslintConfig": {
     "extends": "react-app"
   },

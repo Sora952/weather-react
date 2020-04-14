@@ -11,7 +11,6 @@ import SearchComponent from '../../components/search/SearchComponent'
 import {isEmpty, isUndefined} from 'lodash-es'
 import * as Sentry from '@sentry/browser'
 import {Event} from '../../utils/ReactAnalytics'
-import HEADERS from '../../utils/AlgoliaHeaders'
 
 // Exponential back-off retry delay between requests
 axiosRetry(axios, {retryDelay: axiosRetry.exponentialDelay})
@@ -47,18 +46,13 @@ class AutoCompleteContainer extends Component {
     if (this.state.city.trim()) {
       try {
         this.setState({showLoader: true})
-        const {hits} = (
-          await axios.request({
-            url: 'https://places-dsn.algolia.net/1/places/query',
-            method: 'post',
-            data: {
-              query: this.state.city,
-              type: 'city',
-              aroundLatLng: this.context.address.latlong,
-            },
-            headers: HEADERS,
-          })
+        const {data} = (
+          await axios.get(
+            `/places/query/${this.state.city}/${this.context.latlong}`
+          )
         ).data
+
+        const {hits} = data
 
         // populate addresses and show them if matching cities exist
         if (!isEmpty(hits) && !isUndefined(hits)) {

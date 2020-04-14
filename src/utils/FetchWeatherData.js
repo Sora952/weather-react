@@ -4,15 +4,8 @@ import {isUndefined, isEmpty, isNull} from 'lodash-es'
 import FormatTime from './FormatTime'
 import * as Sentry from '@sentry/browser'
 
-const API_KEY = process.env.REACT_APP_DARKSKY_API_KEY
-const CORS_URL = 'https://cors-anywhere.herokuapp.com'
-
 // Exponential back-off retry delay between requests
 axiosRetry(axios, {retryDelay: axiosRetry.exponentialDelay})
-
-const getURL = latlong => {
-  return `${CORS_URL}/https://api.darksky.net/forecast/${API_KEY}/${latlong}?extend=hourly&exclude=minutely,flags`
-}
 
 /**
  * @param {String} latlong (-43.53333,172.63333)
@@ -24,7 +17,7 @@ const FetchWeatherData = async ({latlong}) => {
   // fetch weather data only when latlong is valid to avoid uneccessary API calls
   if (!isUndefined(latlong) && !isEmpty(latlong) && !isNull(latlong)) {
     try {
-      const {data} = await axios.get(getURL(latlong))
+      const {data} = (await axios.get(`/forecast/coords/${latlong}`)).data
       const weatherData = data
       if (!isEmpty(weatherData) && !isUndefined(weatherData)) {
         // NOTE: add timezone property to current, days, and timeFrame data to use it later for
@@ -36,7 +29,7 @@ const FetchWeatherData = async ({latlong}) => {
           timezone,
           ...weatherData.currently,
           sunrise: weatherData.daily.data[0].sunriseTime,
-          sunset: weatherData.daily.data[0].sunsetTime
+          sunset: weatherData.daily.data[0].sunsetTime,
         }
 
         // group 168 hours into days as keys in timeFrames
@@ -44,7 +37,7 @@ const FetchWeatherData = async ({latlong}) => {
         const timeFrames = {}
         // create date as the keys for timeFrame in timeFrames
         // i.e timeFrames: {'02/28/2020': [{...timeFrame},...], ...}
-        weatherData.hourly.data.forEach(hour => {
+        weatherData.hourly.data.forEach((hour) => {
           const date = FormatTime(hour.time, timezone, 'MM/DD/YYYY')
           if (Object.keys(timeFrames).includes(date)) {
             timeFrames[date].push({timezone, ...hour})
@@ -55,7 +48,7 @@ const FetchWeatherData = async ({latlong}) => {
         const days = {}
         // create date as the keys for the day in days
         // i.e days: {'02/28/2020': {...day}, ...}
-        weatherData.daily.data.forEach(day => {
+        weatherData.daily.data.forEach((day) => {
           const date = FormatTime(day.time, timezone, 'MM/DD/YYYY')
           // since there will be unique day objects in days
           // just create a 'date' key with day object as value for as many days
@@ -71,7 +64,7 @@ const FetchWeatherData = async ({latlong}) => {
 
   return {
     weatherCurrent,
-    weatherForecast
+    weatherForecast,
   }
 }
 
